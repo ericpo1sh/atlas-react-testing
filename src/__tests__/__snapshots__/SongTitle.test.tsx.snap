@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cover Art Renders Correctly 1`] = `
+<div>
+  <div>
+    Not Found
+  </div>
+</div>
+`;
+
+exports[`Song Title Renders Correctly 1`] = `
+<div>
+  <div>
+    Not Found
+  </div>
+</div>
+`;
+
+exports[`Song Title Renders Correctly On Fail 1`] = `
+<div>
+  <div>
+    Not Found
+  </div>
+</div>
+`;
+
+exports[`Song Title Renders Correctly On Success 1`] = `
+<div>
+  <div
+    class="flex-col flex items-center mt-4"
+  >
+    <div
+      class="w-96 text-left"
+    >
+      <h1
+        class="text-2xl font-bold"
+      >
+        Graduation
+      </h1>
+      <p
+        class="text-jacarta-500 font-medium"
+      />
+    </div>
+  </div>
+</div>
+`;

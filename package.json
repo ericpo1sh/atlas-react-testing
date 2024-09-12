@@ -11,6 +11,9 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "6.5.0",
+    "@testing-library/react": "16.0.1",
+    "jsd": "1.1.2",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -25,6 +28,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.6",
+    "jsdom": "25.0.0",
     "postcss": "8.4.45",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.6",

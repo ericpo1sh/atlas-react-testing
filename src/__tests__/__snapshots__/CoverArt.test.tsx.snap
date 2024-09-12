@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cover Art Renders Correctly 1`] = `
+<div>
+  <div>
+    Not Found
+  </div>
+</div>
+`;
+
+exports[`Cover Art Renders Correctly On Fail 1`] = `
+<div>
+  <div>
+    Not Found
+  </div>
+</div>
+`;
+
+exports[`Matches snapshot when CurrentSong is available 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center"
+  >
+    <img
+      alt="Cover Art"
+      class="rounded-2xl w-96 h-96"
+      src="https://m.media-amazon.com/images/I/71pxGj4RoVS._AC_UF894,1000_QL80_.jpg"
+    />
+  </div>
+</div>
+`;

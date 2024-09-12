@@ -5,7 +5,7 @@ interface PlayListItemProps {
   artist: string;
   duration: string;
   className?: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const PlayListItem: React.FC<PlayListItemProps> = ({ title, artist, duration, onClick, className }) => {

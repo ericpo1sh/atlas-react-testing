@@ -1,0 +1,155 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cover Art Renders Correctly 1`] = `
+<div>
+  <div
+    class="w-96 flex-col mt-2.5"
+  >
+    <div
+      class="flex justify-between undefined"
+    >
+      <div
+        class="text-left"
+      >
+        <p
+          class="text-base font-bold"
+        >
+          test
+        </p>
+        <p
+          class="text-jacarta-600 font-medium"
+        >
+          testerEric
+        </p>
+      </div>
+      <p
+        class="text-jacarta-400 font-medium text-lg mt-2"
+      >
+        7:77
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Play List Item Renders Correctly 1`] = `
+<div>
+  <div
+    class="w-96 flex-col mt-2.5"
+  >
+    <div
+      class="flex justify-between "
+    >
+      <div
+        class="text-left"
+      >
+        <p
+          class="text-base font-bold"
+        >
+          test
+        </p>
+        <p
+          class="text-jacarta-600 font-medium"
+        >
+          testerEric
+        </p>
+      </div>
+      <p
+        class="text-jacarta-400 font-medium text-lg mt-2"
+      >
+        7:77
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Play List Item Renders Correctly With valid props 1`] = `
+<div>
+  <div
+    class="w-96 flex-col mt-2.5"
+  >
+    <div
+      class="flex justify-between "
+    >
+      <div
+        class="text-left"
+      >
+        <p
+          class="text-base font-bold"
+        >
+          test
+        </p>
+        <p
+          class="text-jacarta-600 font-medium"
+        >
+          testerEric
+        </p>
+      </div>
+      <p
+        class="text-jacarta-400 font-medium text-lg mt-2"
+      >
+        7:77
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Play List Item Renders Correctly With valid props v2 1`] = `
+<div>
+  <div
+    class="w-96 flex-col mt-2.5"
+  >
+    <div
+      class="flex justify-between bg-slate-200 rounded"
+    >
+      <div
+        class="text-left"
+      >
+        <p
+          class="text-base font-bold"
+        >
+          test-2
+        </p>
+        <p
+          class="text-jacarta-600 font-medium"
+        >
+          testerEric-2
+        </p>
+      </div>
+      <p
+        class="text-jacarta-400 font-medium text-lg mt-2"
+      >
+        8:88
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Play List Item Renders Correctly Without Props 1`] = `
+<div>
+  <div
+    class="w-96 flex-col mt-2.5"
+  >
+    <div
+      class="flex justify-between undefined"
+    >
+      <div
+        class="text-left"
+      >
+        <p
+          class="text-base font-bold"
+        />
+        <p
+          class="text-jacarta-600 font-medium"
+        />
+      </div>
+      <p
+        class="text-jacarta-400 font-medium text-lg mt-2"
+      />
+    </div>
+  </div>
+</div>
+`;

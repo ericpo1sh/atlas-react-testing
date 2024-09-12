@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
 import SongTitle from "../components/SongTitle";
 import { MusicContext } from "../Context/MusicContext";
@@ -22,5 +22,7 @@ test("Song Title Renders Correctly On Success", () => {
     </MusicContext.Provider>
   );
 
+  const titleElement = screen.getByText(/Graduation/i);
+  expect(titleElement).not.toBeNull();
   expect(container).toMatchSnapshot();
 })

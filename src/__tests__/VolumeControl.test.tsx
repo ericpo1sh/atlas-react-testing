@@ -7,3 +7,4 @@ test("Volume Controls Renders Correctly", () => {
   expect(container).not.toBeNull();
   expect(container).toMatchSnapshot();
 });
+// I dont have props in my VolumeControls Component, so I cant test for them.

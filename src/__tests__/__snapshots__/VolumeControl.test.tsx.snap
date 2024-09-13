@@ -1,29 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Cover Art Renders Correctly 1`] = `
-<div>
-  <div
-    class="flex-col flex items-center mt-6 pb-1.5"
-  >
-    <div
-      class="w-96 flex justify-between gap-4"
-    >
-      <img
-        alt="Volume icon"
-        class="w-5"
-        src="/src/assets/volume.svg"
-      />
-      <input
-        class="w-full cursor-pointer caret-jacarta-800 bg-jacarta-800 accent-jacarta-800 rounded-lg"
-        max="100"
-        min="0"
-        type="range"
-      />
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Volume Controls Renders Correctly 1`] = `
 <div>
   <div

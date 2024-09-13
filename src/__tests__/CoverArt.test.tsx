@@ -1,7 +1,20 @@
 import { render, screen } from "@testing-library/react";
-import { expect, test } from "vitest";
+import { expect, test, beforeAll, afterEach, afterAll } from "vitest";
 import CoverArt from "../components/CoverArt";
+import { server } from "../../mock";
 import { MusicContext } from "../Context/MusicContext";
+
+beforeAll(() => {
+  server.listen();
+});
+
+afterEach(() => {
+  server.resetHandlers();
+});
+
+afterAll(() => {
+  server.close();
+});
 
 
 test("Cover Art Renders Correctly On Fail", () => {

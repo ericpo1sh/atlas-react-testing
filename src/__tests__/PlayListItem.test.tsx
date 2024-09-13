@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
 import PlayListItem from "../components/PlayListItem";
 
+
 test("Play List Item Renders Correctly With valid props", () => {
   const { container } = render(<PlayListItem title='test' artist='testerEric' duration='7:77' className=""/>);
   const artistElement = screen.getByText(/testerEric/i);

@@ -1,13 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Cover Art Renders Correctly 1`] = `
-<div>
-  <div>
-    Not Found
-  </div>
-</div>
-`;
-
 exports[`Cover Art Renders Correctly On Fail 1`] = `
 <div>
   <div>
